@@ -1,0 +1,22 @@
+N=int(input())
+sum = 0
+for i in range(N):
+    number = int(input())
+    sum += number
+print(sum)
+
+
+n = int(input())
+sum = 0
+for i in range(n):
+    sum += int(input())
+print(sum)
+
+
+s=0
+N = int(input())
+for i in range(0,N):
+    s+=int(input())
+print(s)
+
+
