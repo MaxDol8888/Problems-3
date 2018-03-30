@@ -1,0 +1,31 @@
+N=int(input())
+sum = 0
+for i in range(N):
+    number = int(input())
+    sum += (number==0)
+print(sum)
+
+
+num_zeroes = 0
+for i in range(int(input())):
+    if int(input()) == 0:
+        num_zeroes += 1
+print(num_zeroes)
+
+
+num_zeroes = 0
+for i in range(int(input())):
+    if int(input()) == 0:
+        num_zeroes += 1
+print(num_zeroes)
+
+
+num_zeroes = 0
+for i in range(int(input())):
+    if int(input()) == 0:
+        num_zeroes += 1
+print(num_zeroes)
+
+
+print(len([z for z in [int(input('Число: ')) 
+for i in range(int(input('Кол-во чисел: ')))] if z == 0]))
