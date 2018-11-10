@@ -1,0 +1,42 @@
+n = int(input())
+ 
+for i in range(n):
+    print("+___", end=" ")
+print()
+for i in range(n):
+    print("|%s /" % (i + 1), end=" ")
+print()
+for i in range(n):
+    print("|__\\", end=" ")
+print()
+for i in range(n):
+    print("|   ", end=" ")
+print()
+
+
+n = int(input())
+print('+___ '*n)
+for i in range(n):
+    print('|', i+1, ' /', sep='', end=' ')
+print()
+print('|__\\ '*n)
+print('| '*n)
+
+
+n = int(input())
+ 
+for i in range(n):
+    print("+___", end=" ")
+print()
+for i in range(n):
+    print("|%s /" % (i + 1), end=" ")
+print()
+for i in range(n):
+    print("|__\\", end=" ")
+print()
+for i in range(n):
+    print("|   ", end=" ")
+print()
+
+
+
